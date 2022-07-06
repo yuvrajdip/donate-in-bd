@@ -57,13 +57,15 @@ h1 {
     /* border: 2px solid black;  Added for practice */
 }
 
-.centering-donation-button a {
+.centering-donation-button a{
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     font-size: larger;
     font-weight: 400;
-    margin: 10px;
-    padding: 13px;
+    margin: 0px;
+    padding: 10px;
     background-color: rgb(231, 82, 65);
     border-radius: 5px;
 }
@@ -190,4 +192,62 @@ input#input-type-text:focus{
 
 /******************* Bonus Section Done *******************/
 
-/*  */
+/******************* Fourth Section Begins ****************/
+
+#email-sec{
+    margin: 50px 350px 100px 400px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: 150px;
+    background-color: antiquewhite;
+    overflow: visible;
+}
+
+.border-radius-email-and-subscribe{
+    border-radius: 4px;
+}
+
+.email-form input{
+    font-size: 18px;
+    color: rgb(85, 84, 84);
+    padding: 15px 0px 15px 10px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+.email-form button{   
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(241, 122, 101, 0.966);
+    cursor: pointer;
+    margin: 0px;
+}
+
+footer{
+    background-color: black;
+    margin-bottom: 0px;
+    height: 250px;
+}
+
+footer h3{
+    padding-top: 25px;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Poppins', sans-serif;
+    color: orangered;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
